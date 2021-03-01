@@ -20,6 +20,13 @@ the font is called 'nunito' and can be found on google fonts
     font-family: 'nunito';
 }
 
+#help-icon {
+    position: fixed;
+    z-index: +2;
+    margin-left: 97%;
+    margin-top: 878px;
+}
+
 header {
     height: 8vh;
     width: 100%;
@@ -53,85 +60,6 @@ header {
 
 #sign-in {
     height: 0px;
-}
-
-main {
-    margin-left: 8vw;
-    margin-right: 30vw;
-    padding-top: 8vh;
-    height: 75vh;
-}
-
-.main-content {
-    margin-left: 0px;
-    margin-top: 30px;
-    height: 20px;
-    font-weight: 700;
-    line-height: 20px;
-    display: block;
-}
-
-br {
-    display: block;
-    content: "";
-    margin-top: 20px;
-    height: 0px;
-}
-
-
-#section {
-    height: 60vh;
-}
-
-#image-gallary {
-    height: 20px;
-    font-weight: 900;
-    font-size: larger;
-    margin-left: 8vw;
-    margin-right: 30vw;
-    padding-top: 50px;
-}
-
-.image-div {
-    margin-left: 8vw;
-    margin-right: 33vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.images {
-    margin-right: 50px;
-    height: 180px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-footer {
-    height: 8vh;
-    width: 100%;
-    background-color: rgb(42, 171, 226);
-    display: flex;
-    align-items: center;
-}
-
-#learn {
-    height: 0vh;
-    margin-left: 5px;
-    margin-bottom: 20px;
-    padding: 20px; 
-}
-
-#help-icon {
-    position: fixed;
-    z-index: +2;
-    margin-left: 97%;
-    margin-top: 878px;
-}
-
-#view-larger {
-    margin-left: 1210px;
-    color: rgb(42, 171, 226)
 }
 
 #profile {
@@ -175,6 +103,74 @@ footer {
     font-weight: bolder;
 }
 
-.aside {
+main {
+    margin-left: 8vw;
+    margin-right: 30vw;
+    padding-top: 8vh;
+    height: 75vh;
+}
+
+.main-content {
+    margin-left: 0px;
+    margin-top: 30px;
+    height: 20px;
+    font-weight: 700;
+    line-height: 20px;
     display: block;
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 20px;
+    height: 0px;
+}
+
+
+#section {
+    height: 60vh;
+}
+
+#image-gallary {
+    height: 20px;
+    font-weight: 900;
+    font-size: larger;
+    margin-left: 8vw;
+    margin-right: 30vw;
+    padding-top: 50px;
+}
+
+#view-larger {
+    margin-left: 1210px;
+    color: rgb(42, 171, 226)
+}
+
+.image-div {
+    margin-left: 8vw;
+    margin-right: 33vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.images {
+    margin-right: 50px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(42, 171, 226);
+    display: flex;
+    align-items: center;
+}
+
+#learn {
+    height: 0vh;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding: 20px; 
 }
