@@ -12,3 +12,169 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0 auto;
+    font-family: 'nunito';
+}
+
+header {
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    position: fixed;
+    z-index: +1;
+}
+
+#header-title {
+    color: rgb(42, 171, 226);
+    padding: 20px;
+    margin-left: 5px;
+    font-size: 25px;
+    display: inline-block;
+    height: 0px;
+}
+
+.nav {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 27px;
+    margin-right: 5px;
+    height: 0px;
+}
+
+.nav-content {
+    margin-right: 75px;
+    height: 0px;
+}
+
+#sign-in {
+    height: 0px;
+}
+
+main {
+    margin-left: 8vw;
+    margin-right: 30vw;
+    padding-top: 8vh;
+    height: 75vh;
+}
+
+.main-content {
+    margin-left: 0px;
+    margin-top: 30px;
+    height: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    display: block;
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 20px;
+    height: 0px;
+}
+
+
+#section {
+    height: 60vh;
+}
+
+#image-gallary {
+    height: 20px;
+    font-weight: 900;
+    font-size: larger;
+    margin-left: 8vw;
+    margin-right: 30vw;
+    padding-top: 50px;
+}
+
+.image-div {
+    margin-left: 8vw;
+    margin-right: 33vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.images {
+    margin-right: 50px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(42, 171, 226);
+    display: flex;
+    align-items: center;
+}
+
+#learn {
+    height: 0vh;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding: 20px; 
+}
+
+#help-icon {
+    position: fixed;
+    z-index: +2;
+    margin-left: 97%;
+    margin-top: 878px;
+}
+
+#view-larger {
+    margin-left: 1210px;
+    color: rgb(42, 171, 226)
+}
+
+#profile {
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-right: 175px;
+    margin-top: 110px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 50px rgba(102, 75, 75, .3);
+}
+
+#profile-pic {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+#your-name {
+    text-align: center;
+}
+
+#list {
+    height: 355px;
+    width: 300px;
+    float: right;
+    border-radius: 5%;
+    box-shadow: 0px 0px 50px rgba(102, 75, 75, .3);
+    margin-top: 50px;
+    clear: both;
+    margin-right: 175px;
+}
+
+#popular {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.li-item {
+    line-height: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.aside {
+    display: block;
+}
